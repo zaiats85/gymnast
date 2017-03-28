@@ -11,7 +11,7 @@
           flex-wrap: wrap; }
 
 /* line 17, stdin */
-.portfolio .site-main .mdl-card__media,
+.fanat-portfolio .site-main .mdl-card__media,
 .portfolio.related-posts .mdl-card__media {
   padding: 0;
   height: auto;
@@ -22,8 +22,8 @@
     width: 100%;
     height: auto; }
   /* line 27, stdin */
-  .portfolio .site-main .mdl-card__media img,
-  .portfolio.related-posts .mdl-card__media img {
+  .fanat-portfolio .site-main .mdl-card__media img,
+  .fanat-portfolio.related-posts .mdl-card__media img {
     height: auto;
     overflow: hidden;
     max-width: 100%; }

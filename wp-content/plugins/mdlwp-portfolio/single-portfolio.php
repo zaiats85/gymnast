@@ -12,7 +12,7 @@
 
 get_header(); ?>
 
-		
+
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main mdl-grid mdlwp-900" role="main">
 
@@ -84,9 +84,9 @@ get_header(); ?>
 					$mdlwp_count++; ?>
 
 
-					<div class="mdl-cell mdl-cell--<?php echo $col; ?>-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--2dp"> 
+					<div class="mdl-cell mdl-cell--<?php echo $col; ?>-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--2dp">
 						<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-					
+
 							<div class="mdl-card__media">
 								<?php if ( has_post_thumbnail() ) : ?>
 									<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
@@ -97,10 +97,10 @@ get_header(); ?>
 
 							<div class="entry-content mdl-color-text--grey-600 mdl-card__supporting-text">
 								<h2>
-									
+
 									<a href="<?php the_permalink(); ?>">
 										<?php the_title(); ?>
-									</a>	
+									</a>
 								</h2><!-- .entry-header -->
 							</div><!-- .entry-content -->
 						</article><!-- #post-## -->
@@ -113,9 +113,9 @@ get_header(); ?>
 				</div>
 			</div>
 
-		<?php }  
+		<?php }
 	 }  ?>
-	
+
 
 <?php get_footer(); ?>
 

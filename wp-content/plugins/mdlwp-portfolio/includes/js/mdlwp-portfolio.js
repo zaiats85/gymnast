@@ -1,7 +1,7 @@
 jQuery(document).ready(function($){
-	// initialize filtering  
-	$('.portfolio').mixItUp();
-	$('.tabs .categories-item a').click(function (e) {
+	// initialize filtering
+	var mixer = $('.fanat-portfolio').mixItUp();
+	$('.mdl-tabs a.categories-item').click(function (e) {
 		e.preventDefault();
 	});
 

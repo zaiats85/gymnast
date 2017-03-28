@@ -10,6 +10,7 @@
 get_header(); ?>
 
 <div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect">
+	
 	<?php
 		if(get_theme_mod('display_filter', '1')) {
 		    $terms = get_terms("portfolio_category");
@@ -17,7 +18,7 @@ get_header(); ?>
 		    echo '<div class="mdl-tabs__tab-bar">';
 		    echo '<a class="mdl-tabs__tab is-active filter categories-item" data-filter="all" href="#all">'. __( "All", "mdlwp" ) .'</a>';
 		        if ( $count > 0 )
-		        {   
+		        {
 		            foreach ( $terms as $term ) {
 		                $termname = strtolower($term->name);
 		                $termname = str_replace(' ', '-', $termname);
@@ -48,24 +49,24 @@ get_header(); ?>
 
 			<?php
 			    $terms = get_the_terms( $post->ID, 'portfolio_category' );
-			                         
-			    if ( $terms && ! is_wp_error( $terms ) ) : 
+
+			    if ( $terms && ! is_wp_error( $terms ) ) :
 			        $links = array();
 
-			        foreach ( $terms as $term ) 
+			        foreach ( $terms as $term )
 			        {
 			            $links[] = $term->name;
 			        }
-			        $links = str_replace(' ', '-', $links); 
-			        $tax = join( " ", $links );     
-			    else :  
-			        $tax = '';  
+			        $links = str_replace(' ', '-', $links);
+			        $tax = join( " ", $links );
+			    else :
+			        $tax = '';
 			    endif;
 		    ?>
 
-				<div class="mdl-cell mdl-cell--<?php echo $col; ?>-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--2dp mix all <?php echo strtolower($tax); ?>"> 
+				<div class="mdl-cell mdl-cell--<?php echo $col; ?>-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--2dp mix all <?php echo strtolower($tax); ?>">
 					<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-						
+
 						<div class="mdl-card__media">
 							<?php if ( has_post_thumbnail() ) : ?>
 								<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
@@ -76,10 +77,10 @@ get_header(); ?>
 
 						<div class="entry-content mdl-color-text--grey-600 mdl-card__supporting-text">
 							<h2>
-								
+
 								<a href="<?php the_permalink(); ?>">
 									<?php the_title(); ?>
-								</a>	
+								</a>
 							</h2><!-- .entry-header -->
 						</div><!-- .entry-content -->
 					</article><!-- #post-## -->
