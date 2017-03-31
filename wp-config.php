@@ -80,6 +80,9 @@ $table_prefix  = 'wp_';
  */
 define('WP_DEBUG', false);
 
+
+define('FS_METHOD', 'direct');
+
 /* That's all, stop editing! Happy blogging. */
 
 /** Absolute path to the WordPress directory. */
