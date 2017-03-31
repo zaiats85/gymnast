@@ -1,0 +1,80 @@
+.mdlwp-1200 {
+	max-width: 1200px;
+}
+
+.post-type-archive-portfolio {
+	.mdl-tabs__tab-bar {
+		background-color: #fff;
+		height: auto;
+		flex-wrap: wrap;
+	}
+}
+
+.portfolio {
+
+	.site-main,
+	&.related-posts {
+		.mdl-card__media {
+			padding: 0;
+			height: auto;
+			overflow: hidden;
+
+			a {
+				width: 100%;
+				height: auto;
+			}
+
+			img {
+				height: auto;
+				overflow: hidden;
+				max-width: 100%;
+			}
+		}
+	}
+	
+	.mdl-card__supporting-text {
+		h2 {
+			margin: 0;
+			font-size: 18px;
+			line-height: 22px;
+
+			a {
+				color: #616161;
+				text-decoration: none;
+				font-weight: 400;
+
+				&:hover {
+					text-decoration: underline;
+				}
+			}
+			
+		}
+	}
+	.mix {
+		display: none;
+	}	
+}
+
+.single-portfolio {
+	.related-posts {
+
+		.heading {
+			 margin: 0 auto;
+		}
+
+		h3 {
+			margin: 0;
+			padding-left: 8px;
+			font-size: 18px;
+			line-height: 20px;
+		}
+
+		.mdl-card__supporting-text {
+			h2 {
+				font-size: 14px;
+				line-height: 18px;
+			}
+		}
+	}
+	
+}
