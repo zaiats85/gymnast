@@ -1,9 +1,9 @@
+
+jQuery.noConflict();
+
 jQuery(document).ready(function($){
-	// initialize filtering
 
-	containerEl = $('.fanat-portfolio');
-
-	mixer = mixitup(containerEl, {
+	mixer = mixitup($('.sport-portfolio'), {
 		pagination: {
 			limit: 4,
 			maintainActivePage: false,

@@ -27,7 +27,7 @@ get_header(); ?>
     } ?>
 
 
-    <div id="primary" class="fanat-portfolio">
+    <div id="primary" class="sport-portfolio">
         <main id="main" class="site-main mdl-grid mdlwp-1200" role="main">
 
             <?php $columns = get_theme_mod('portfolio_layout', 'three-column');
@@ -73,6 +73,7 @@ get_header(); ?>
 
                         <div class="entry-content mdl-color-text--grey-600 mdl-card__supporting-text">
                             <h2>
+
                                 <a href="<?php the_permalink(); ?>">
                                     <?php the_title(); ?>
                                 </a>
