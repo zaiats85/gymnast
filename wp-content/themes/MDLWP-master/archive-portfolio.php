@@ -9,8 +9,6 @@
 
 get_header(); ?>
 
-<?php $categories = array('apparatus', 'family', 'olimpics'); ?>
-
 	<div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect" >
 <?php
 if(get_theme_mod('display_filter', '1')) {
@@ -88,6 +86,11 @@ if(get_theme_mod('display_filter', '1')) {
 			<?php endwhile; // End of the loop. ?>
 
 		</main>
+
+		<div class="mixitup-page-list"></div>
+
+		<div class="mixitup-page-stats"></div>
+
 	</div><!-- #primary
 
 </div><!--.mdl-tabs

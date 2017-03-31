@@ -1,8 +1,22 @@
 jQuery(document).ready(function($){
 	// initialize filtering
-	var mixer = $('.fanat-portfolio').mixItUp();
-	$('.mdl-tabs a.categories-item').click(function (e) {
-		e.preventDefault();
+
+	containerEl = $('.fanat-portfolio');
+
+	mixer = mixitup(containerEl, {
+		pagination: {
+			limit: 4,
+			maintainActivePage: false,
+			loop: true,
+			hidePageListIfSinglePage: true
+		},
+		load: {
+			page: 1 // load page 1 on instantiation
+		},
+		multifilter: {
+			enable: true
+		}
 	});
 
 });
+
