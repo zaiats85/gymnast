@@ -17,6 +17,7 @@ get_header(); ?>
 				</header><!-- .page-header -->
 
 				<div class="page-content">
+<<<<<<< HEAD
 
 					<div id="fb-root"></div>
 
@@ -48,6 +49,8 @@ get_header(); ?>
 						 data-share="true">
 					</div>
 
+=======
+>>>>>>> 22a094e086282e26ff41862862f2068f5faf4590
 					<p><?php esc_html_e( 'It looks like nothing was found at this location.', 'mdlwp' ); ?></p>
 
 					<?php the_widget( 'WP_Widget_Recent_Posts' ); ?>

@@ -118,6 +118,7 @@ function twentyfifteen_setup() {
 	$default_color = trim( $color_scheme[0], '#' );
 
 	// Setup the WordPress core custom background feature.
+<<<<<<< HEAD
 
 	/**
 	 * Filter Twenty Fifteen custom-header support arguments.
@@ -131,6 +132,8 @@ function twentyfifteen_setup() {
 	 *     @type string $default-attachment     Default attachment of the header.
 	 * }
 	 */
+=======
+>>>>>>> 22a094e086282e26ff41862862f2068f5faf4590
 	add_theme_support( 'custom-background', apply_filters( 'twentyfifteen_custom_background_args', array(
 		'default-color'      => $default_color,
 		'default-attachment' => 'fixed',
@@ -286,6 +289,7 @@ function twentyfifteen_scripts() {
 add_action( 'wp_enqueue_scripts', 'twentyfifteen_scripts' );
 
 /**
+<<<<<<< HEAD
  * Add preconnect for Google Fonts.
  *
  * @since Twenty Fifteen 1.7
@@ -311,6 +315,8 @@ function twentyfifteen_resource_hints( $urls, $relation_type ) {
 add_filter( 'wp_resource_hints', 'twentyfifteen_resource_hints', 10, 2 );
 
 /**
+=======
+>>>>>>> 22a094e086282e26ff41862862f2068f5faf4590
  * Add featured image as background image to post navigation elements.
  *
  * @since Twenty Fifteen 1.0
