@@ -1,3 +1,4 @@
+
 <?php
 /**
  * The base configuration for WordPress
@@ -18,12 +19,9 @@
  * @package WordPress
  */
 
-// Install plugins without FTP (loclhost)
-define('FS_METHOD', 'direct');
-
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'fanatka');
+define('DB_NAME', 'gymnast');
 
 /** MySQL database username */
 define('DB_USER', 'root');
@@ -49,14 +47,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         ';0:$bmn!JG#>|Y3l,>8U1xX{L]3m.1uS3T-A=-1s/_,zX@,~qEp8:4<I(D}:;]93');
-define('SECURE_AUTH_KEY',  'm2;^lkoRT{8ScEJO6O&~,yUC9FK4VoPud[`Q[>]/A~1t@1o[id oS|C9M1_yh,{V');
-define('LOGGED_IN_KEY',    'R]+[FZ.[pmSK%jwgn[C`,m1.;ILJ-&dZ3=vo`gT:+HxHd0{=xVp)8[na@X#~e$jz');
-define('NONCE_KEY',        '<+3iq<F;*)*8sPCtHns8g%:m-.a(3U|^z$B$I<Y~U&w ]Mj|GYv6MGlU+~gS;4)5');
-define('AUTH_SALT',        '3Ey*&C!`ZTnCNO8U{.~}Bi6^f.oozJX:9USY:A3=&6zUQJFc$%<:7VT,o] =qFeS');
-define('SECURE_AUTH_SALT', 'auILA&p_tG%=,/RON:au}[ENov%.tB.*FOS<Y4.d&8}}]K%,nT-5giju?4Y1NR(M');
-define('LOGGED_IN_SALT',   ',I3jg|=Vm>jf+*A;)v~5;Ub/SSH|019Foo|xzPkLPj(R.UE|=xj1`Gqv?#YC4)QS');
-define('NONCE_SALT',       '~T@&bVS+S=|UY,{/^CJIEqa&CZ-^gm* dr%~g:e2H})+75.UaPtEsYop<V.M{}(V');
+define('AUTH_KEY',         '^Gf>pp]%:&=Y`[&DBq|L87)E2shJ!#6,ycq@kZfJfUBRIf<DN%6Aj2^ZGD`M}##2');
+define('SECURE_AUTH_KEY',  '#`N`N8p?l;#U#Qn]g||-r(lKGrj)GY.7o!$3veL6.3Zd`aFuomG_J* CO*Rp/|Db');
+define('LOGGED_IN_KEY',    'b5%q3Im]GNpSWFEn[0dUW/0o g3PI|~68Hh9p2V)ifI19-fDZvenKk61^}8C?#YK');
+define('NONCE_KEY',        '5F=up[34S.*X(@IDPVTNVslq+TY@Og:9)3&8X8Q#N$01x8i{01.`*ve0TuuDXdVd');
+define('AUTH_SALT',        'wsK~3H600-JoSk/O}xP%Q/_ [}vZJ.G{elIeqzo9FXXwL[=p S%Z^W}-qxrxzg)+');
+define('SECURE_AUTH_SALT', 'Ke./k;9 <:Y$<nQ^aFCz*gU#pFN+cM8dJ)%0oZ^v2u5!x,liF|f2P|[`7D[5{* t');
+define('LOGGED_IN_SALT',   'd[#h,`6K4HW:*li#:_c@y^kcPnGp9M[i_kwz9nRWYfgB_1DSs](Z&C:(&gH7ioyU');
+define('NONCE_SALT',       '<?Wzdt}qDjay?)GriQc9x kPFu_U][5}jvFNG;tic6FBe5MJ$k(w#u)>1:~vF~wk');
 
 /**#@-*/
 
@@ -80,14 +78,20 @@ $table_prefix  = 'wp_';
  *
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
+
 define('WP_DEBUG', false);
 
-/* That's all, stop editing! Happy blogging. */
+#Enabled for plugin install without FTP
+define('FS_METHOD', 'direct');
+
+#Enabled for Jetpack
+define( 'JETPACK_DEV_DEBUG', true);
+
+/* That's all, pen down.  Happy blogging. */
 
 /** Absolute path to the WordPress directory. */
 if ( !defined('ABSPATH') )
-	define('ABSPATH', dirname(__FILE__) . '/');
+    define('ABSPATH', dirname(__FILE__) . '/');
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
-
