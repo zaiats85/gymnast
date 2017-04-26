@@ -1,17 +1,35 @@
+@import "../../../../themes/MDLWP-master/sass/variables-site/colors";
+
 .mdlwp-1200 {
 	max-width: 1200px;
 }
 
 .post-type-archive-portfolio {
+
 	.mdl-tabs__tab-bar {
 		background-color: #fff;
 		height: auto;
 		flex-wrap: wrap;
 	}
+	.center-items {
+		flex-direction: column;
+		align-items: center;
+		.mixitup-page-list {
+			margin-bottom: 8px;
+			button {
+				min-width: 40px;
+			}
+			.mixitup-control-active {
+				background-color: rgb(63,81,181);
+				color: white;
+			}
+		}
+	}
 }
 
-.portfolio {
 
+
+.portfolio {
 	.site-main,
 	&.related-posts {
 		.mdl-card__media {
@@ -78,3 +96,4 @@
 	}
 	
 }
+
