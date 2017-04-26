@@ -12,6 +12,8 @@ function mdlwp_portfolio_load_scripts() {
 	$js_dir = MDLWP_PORTFOLIO_PLUGIN_URL . 'includes/js/';
 
 	wp_enqueue_script( 'mdlwp-portfolio-mixitup', $js_dir . 'mixitup.min.js', array('jquery'), 'false', false );
+	wp_enqueue_script( 'mdlwp-portfolio-mixitup', $js_dir . 'mixitup-multifilter.js', array('jquery'), 'false', false );
+	wp_enqueue_script( 'mdlwp-portfolio-mixitup', $js_dir . 'mixitup-pagination.js', array('jquery'), 'false', false );
 	wp_enqueue_script( 'mdlwp-portfolio', $js_dir . 'mdlwp-portfolio.js', array('jquery'), '1.0.0', false );
 
 }
