@@ -118,6 +118,22 @@ function twentyfifteen_setup() {
 	$default_color = trim( $color_scheme[0], '#' );
 
 	// Setup the WordPress core custom background feature.
+<<<<<<< HEAD
+
+	/**
+	 * Filter Twenty Fifteen custom-header support arguments.
+	 *
+	 * @since Twenty Fifteen 1.0
+	 *
+	 * @param array $args {
+	 *     An array of custom-header support arguments.
+	 *
+	 *     @type string $default-color     		Default color of the header.
+	 *     @type string $default-attachment     Default attachment of the header.
+	 * }
+	 */
+=======
+>>>>>>> 22a094e086282e26ff41862862f2068f5faf4590
 	add_theme_support( 'custom-background', apply_filters( 'twentyfifteen_custom_background_args', array(
 		'default-color'      => $default_color,
 		'default-attachment' => 'fixed',
@@ -273,6 +289,34 @@ function twentyfifteen_scripts() {
 add_action( 'wp_enqueue_scripts', 'twentyfifteen_scripts' );
 
 /**
+<<<<<<< HEAD
+ * Add preconnect for Google Fonts.
+ *
+ * @since Twenty Fifteen 1.7
+ *
+ * @param array   $urls          URLs to print for resource hints.
+ * @param string  $relation_type The relation type the URLs are printed.
+ * @return array URLs to print for resource hints.
+ */
+function twentyfifteen_resource_hints( $urls, $relation_type ) {
+	if ( wp_style_is( 'twentyfifteen-fonts', 'queue' ) && 'preconnect' === $relation_type ) {
+		if ( version_compare( $GLOBALS['wp_version'], '4.7-alpha', '>=' ) ) {
+			$urls[] = array(
+				'href' => 'https://fonts.gstatic.com',
+				'crossorigin',
+			);
+		} else {
+			$urls[] = 'https://fonts.gstatic.com';
+		}
+	}
+
+	return $urls;
+}
+add_filter( 'wp_resource_hints', 'twentyfifteen_resource_hints', 10, 2 );
+
+/**
+=======
+>>>>>>> 22a094e086282e26ff41862862f2068f5faf4590
  * Add featured image as background image to post navigation elements.
  *
  * @since Twenty Fifteen 1.0

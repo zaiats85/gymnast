@@ -15,7 +15,11 @@
  * @wordpress-plugin
  * Plugin Name:       MDLWP Portfolio
  * Plugin URI:        http://mdlwp.com/mdlwp-portfolio-uri/
+<<<<<<< HEAD
+ * Description:       A portfolio layout for MDLWP, a Material Design Lite WordPress theme. 
+=======
  * Description:       Custom layout plugin
+>>>>>>> 22a094e086282e26ff41862862f2068f5faf4590
  * Version:           1.0.0
  * Author:            Brad Williams
  * Author URI:        http://braginteractive.com
