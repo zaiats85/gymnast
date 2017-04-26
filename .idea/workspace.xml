@@ -2,7 +2,181 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1c9e4d9-1a83-47d9-9fd9-15cf7fde447b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/justified-gallery/assets/img/admin-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/justified-gallery/assets/img/close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/justified-gallery/assets/img/details-box-sample.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/justified-gallery/assets/img/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/justified-gallery/assets/img/preloader.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/justified-gallery/assets/img/video-play.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/justified-gallery/assets/img/vimeo-play.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/justified-gallery/assets/img/youtube-play.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/justified-gallery/assets/vendors/photoswipe/default-skin/default-skin.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/justified-gallery/assets/vendors/photoswipe/default-skin/preloader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/img/audio.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/img/default.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/img/jackbox.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/img/jackbox_remove.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/img/video.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/audio_poster.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/default_share.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/default_thumb.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/exit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/exit_dark.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/fullscreen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/fullscreen_dark.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/hover_document.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/hover_magnify.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/hover_play.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/ie_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/ie_preloader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/info.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/info_dark.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/left_arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/left_arrow_dark.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/music/ie_btn.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/music/ie_ctrl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/normalscreen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/normalscreen_dark.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/panel_left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/panel_left_over.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/panel_right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/panel_right_over.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/pixel.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/retina/exit@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/retina/exit_dark@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/retina/fullscreen@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/retina/fullscreen_dark@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/retina/hover_document@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/retina/hover_magnify@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/retina/hover_play@x2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/retina/info@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/retina/info_dark@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/retina/left_arrow@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/retina/left_arrow_dark@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/retina/normalscreen@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/retina/normalscreen_dark@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/retina/panel_left@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/retina/panel_left_over@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/retina/panel_right@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/retina/panel_right_over@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/retina/right_arrow@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/retina/right_arrow_dark@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/retina/thumb_left@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/retina/thumb_right@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/retina/thumbs_hide@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/retina/thumbs_hide_dark@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/retina/thumbs_show@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/retina/thumbs_show_dark@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/right_arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/right_arrow_dark.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/social/facebook.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/social/facebook_dark.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/social/facebook_mac.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/social/facebook_mac_dark.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/social/google.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/social/google_dark.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/social/pinterest.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/social/pinterest_dark.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/social/twitter.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/social/twitter_dark.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/social/twitter_mac.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/social/twitter_mac_dark.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/social/twitter_webkit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/thumb_left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/thumb_right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/thumbs_hide.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/thumbs_hide_dark.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/thumbs_show.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/thumbs_show_dark.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/video/fullscreen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/video/normalscreen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/video/preloader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/video/retina/fullscreen@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/video/retina/normalscreen@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/video/retina/preloader@2x.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/video/retina/vid_mute@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/video/retina/vid_pause@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/video/retina/vid_play@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/video/retina/vid_progress@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/video/retina/vid_total@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/video/retina/vid_volume@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/video/vid_mute.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/video/vid_pause.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/video/vid_play.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/video/vid_progress.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/video/vid_total.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/graphics/video/vid_volume.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/img/video_poster.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/swf/audio_fallback.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/swf/video_fallback.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/js/jquery.colorbox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/js/jquery.colorbox.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/js/jquery.photoset-grid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/js/jquery.photoset-grid.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/js/photoset.admin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/justified-gallery/assets/css/admin-style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/justified-gallery/assets/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/justified-gallery/assets/css/style.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/justified-gallery/assets/js/jquery.justifiedGallery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/justified-gallery/assets/js/jquery.justifiedGallery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/justified-gallery/assets/js/jquery.mousewheel.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/justified-gallery/assets/vendors/photoswipe/default-skin/default-skin.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/justified-gallery/assets/vendors/photoswipe/default-skin/default-skin.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/justified-gallery/assets/vendors/photoswipe/jquery.photoswipe.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/justified-gallery/assets/vendors/photoswipe/photoswipe-ui-default.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/justified-gallery/assets/vendors/photoswipe/photoswipe-ui-default.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/justified-gallery/assets/vendors/photoswipe/photoswipe.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/justified-gallery/assets/vendors/photoswipe/photoswipe.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/justified-gallery/assets/vendors/photoswipe/photoswipe.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/justified-gallery/includes/admin/admin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/justified-gallery/includes/admin/settings/class-settings-api.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/justified-gallery/includes/admin/settings/class-settings.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/justified-gallery/includes/admin/views/settings.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/justified-gallery/includes/class-gallery.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/justified-gallery/includes/functions.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/justified-gallery/includes/install.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/justified-gallery/includes/register-scripts.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/justified-gallery/includes/views/photoswipe-modal.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/justified-gallery/justified-gallery.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/justified-gallery/readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/justified-gallery/uninstall.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-facebook-open-graph-protocol/readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-facebook-open-graph-protocol/wp-facebook-ogp.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/css/jackbox_wp.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/css/jackbox_wp.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/includes/jackbox_admin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/includes/jackbox_scripts.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/includes/jackbox_tiny_mce.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/includes/noerror.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/css/jackbox-audio.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/css/jackbox-global.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/css/jackbox-ie8.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/css/jackbox-ie9.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/css/jackbox-video.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/css/jackbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/css/jackbox.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/js/jackbox-audio.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/js/jackbox-packed.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/js/jackbox-scripts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/js/jackbox-scripts.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/js/jackbox-swipe.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/js/jackbox-video.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/js/jackbox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/js/libs/Jacked.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/js/libs/StackBlur.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/js/libs/jquery.address-1.5.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/js/libs/modernizr-2.5.3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/modules/jackbox_audio.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/modules/jackbox_social.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/modules/jackbox_swf.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/jackbox/modules/jackbox_video.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/js/jackbox_admin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/js/jackbox_tinymce.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/js/jackbox_tinymce.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/js/tinymce_edit_html_plugin/plugin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-jackbox/wp-jackbox.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/index.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/MDLWP-master/404.php" afterPath="$PROJECT_DIR$/wp-content/themes/MDLWP-master/404.php" />
     </list>
     <ignored path="gymnast.loc.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -68,10 +242,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1431" />
-    <option name="y" value="24" />
-    <option name="width" value="1855" />
-    <option name="height" value="1176" />
+    <option name="x" value="57" />
+    <option name="y" value="21" />
+    <option name="width" value="1309" />
+    <option name="height" value="747" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -98,6 +272,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -118,8 +294,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -188,23 +362,24 @@
       <workItem from="1491120840490" duration="1494000" />
       <workItem from="1491209162647" duration="859000" />
       <workItem from="1491211151060" duration="83000" />
+      <workItem from="1493237813125" duration="12000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20898000" />
+    <option name="totallyTimeSpent" value="20910000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1431" y="24" width="1855" height="1176" extended-state="6" />
+    <frame x="57" y="21" width="1309" height="747" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18974076" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1925809" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3607011" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36030534" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -243,7 +418,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8568">
           <caret line="486" column="0" selection-start-line="486" selection-start-column="0" selection-end-line="486" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -293,7 +467,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5040">
           <caret line="286" column="0" selection-start-line="286" selection-start-column="0" selection-end-line="286" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -301,7 +474,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8568">
           <caret line="486" column="0" selection-start-line="486" selection-start-column="0" selection-end-line="486" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -466,7 +638,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -502,7 +673,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -517,7 +687,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="704">
           <caret line="286" column="0" selection-start-line="286" selection-start-column="0" selection-end-line="286" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -525,7 +694,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2230">
           <caret line="464" column="2" selection-start-line="464" selection-start-column="2" selection-end-line="464" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
