@@ -5,7 +5,7 @@ jQuery(document).ready(function($){
 
 	mixer = mixitup($('.fanat-portfolio'), {
 		pagination: {
-			limit: 4,
+			limit: 6,
 			maintainActivePage: false,
 			loop: true,
 			hidePageListIfSinglePage: true
