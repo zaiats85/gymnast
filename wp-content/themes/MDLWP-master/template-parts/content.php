@@ -8,18 +8,18 @@
 ?>
 
 <?php
-    // Gets the stored background color value 
-    $color_value = get_post_meta( get_the_ID(), 'mdlwp-bg-color', true ); 
+    // Gets the stored background color value
+    $color_value = get_post_meta( get_the_ID(), 'mdlwp-bg-color', true );
     // Checks and returns the color value
   	$color = (!empty( $color_value ) ? 'background-color:' . $color_value . ';' : '');
 
-  	// Gets the stored title color value 
-    $title_color_value = get_post_meta( get_the_ID(), 'mdlwp-title-color', true ); 
+  	// Gets the stored title color value
+    $title_color_value = get_post_meta( get_the_ID(), 'mdlwp-title-color', true );
     // Checks and returns the color value
   	$title_color = (!empty( $title_color_value ) ? 'color:' . $title_color_value . ';' : '');
 
-  	// Gets the stored height value 
-    $height_value = get_post_meta( get_the_ID(), 'mdlwp-height', true ); 
+  	// Gets the stored height value
+    $height_value = get_post_meta( get_the_ID(), 'mdlwp-height', true );
     // Checks and returns the height value
   	$height = (!empty( $height_value ) ? 'height:' . $height_value . ';' : '');
 
@@ -29,7 +29,7 @@
   	$bg = (!empty( $featured_img ) ? "background-image: url('". $featured_img[0] ."');" : '');
 ?>
 
-<div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--2dp">   
+<div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--2dp">
 	<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 		<div class="mdl-card__media" style="<?php echo $color . $bg . $height; ?> ">
@@ -60,13 +60,13 @@
 			<div class="avatar-img">
 				<?php echo get_avatar( get_the_author_meta( 'ID' ), 32 ); ?>
 			</div>
-	        
+
 	        <?php if ( 'post' == get_post_type() ) : ?>
 			<div class="entry-meta">
 				<?php mdlwp_posted_on(); ?>
 			</div><!-- .entry-meta -->
 			<?php endif; ?>
-	              
+
 		</footer><!-- .entry-footer -->
 	</article><!-- #post-## -->
 </div><!-- .mdl-cell -->
