@@ -59,8 +59,7 @@ textarea {
       -ms-flex-order: 1;
           order: 1;
   width: 500px;
-  -webkit-transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1), width 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-          transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1), width 0.2s cubic-bezier(0.4, 0, 0.2, 1); }
+  transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1), width 0.2s cubic-bezier(0.4, 0, 0.2, 1); }
 
 .mdlwp-search-box {
   -webkit-box-ordinal-group: 3;
@@ -238,8 +237,7 @@ ol.comment-list {
   margin-right: 25px;
   border: 1px solid #ddd;
   border-radius: 4px;
-  -webkit-transition: all .2s ease-in-out;
-          transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
   padding: 4px; }
 
 .comment-meta {
@@ -277,8 +275,7 @@ ol.comment-list {
   text-transform: uppercase;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.84);
-  -webkit-transition: box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1);
-          transition: box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1);
   outline: 0 !important;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.23), 0 3px 10px rgba(0, 0, 0, 0.16);
   color: rgba(0, 0, 0, 0.84);
@@ -326,6 +323,41 @@ ol.comment-list {
 
 .page-template-page-ribbon .is-small-screen .ribbon-content {
   padding: 20px 30px; }
+
+/*--------------------------------------------------------------
+## Contact
+--------------------------------------------------------------*/
+.contact-page {
+  background: transparent; }
+  .contact-page .contact-page-details .mdl-textfield {
+    padding-top: 10px;
+    padding-bottom: 8px; }
+    .contact-page .contact-page-details .mdl-textfield:first-of-type {
+      margin-top: 1px; }
+    .contact-page .contact-page-details .mdl-textfield label {
+      margin-bottom: -12px; }
+    .contact-page .contact-page-details .mdl-textfield input {
+      margin-top: 9px; }
+  .contact-page .contact-page-feedback {
+    margin-left: 0;
+    margin-right: 0;
+    background: #fff;
+    opacity: 0.9;
+    padding: 30px 96px; }
+    .contact-page .contact-page-feedback .contact-text-message {
+      width: 100%; }
+    .contact-page .contact-page-feedback .contact-send {
+      margin: 60px auto;
+      text-align: center; }
+      .contact-page .contact-page-feedback .contact-send button {
+        width: 376px; }
+  .contact-page .mdl-button--accent {
+    width: 100%; }
+  .contact-page .contact-page-social-icons {
+    margin: 16px 0; }
+    .contact-page .contact-page-social-icons a {
+      padding-right: 28px;
+      color: transparent; }
 
 body {
   background-color: #f5f5f5; }
