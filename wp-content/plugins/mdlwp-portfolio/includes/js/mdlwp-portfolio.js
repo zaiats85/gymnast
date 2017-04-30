@@ -3,7 +3,7 @@ jQuery.noConflict();
 
 jQuery(document).ready(function($){
 
-	mixer = mixitup($('.sport-portfolio'), {
+	mixer = mixitup($('.fanat-portfolio'), {
 		pagination: {
 			limit: 4,
 			maintainActivePage: false,
