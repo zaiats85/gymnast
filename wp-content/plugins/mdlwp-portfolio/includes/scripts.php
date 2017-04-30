@@ -20,6 +20,7 @@ function mdlwp_portfolio_load_scripts() {
 		wp_enqueue_script( 'mdlwp-mixitup-pagination',  $js_dir .  'mixitup-pagination.js', array(), true );
 
 		wp_enqueue_script( 'mdlwp-mixitup-multifiltering', $js_dir . 'mixitup-multifilter.js', array(), true );
+		
 	}
 
 }
