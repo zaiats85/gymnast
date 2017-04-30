@@ -27,7 +27,7 @@ get_header(); ?>
     } ?>
 
 
-    <div id="primary" class="sport-portfolio">
+    <div id="primary" class="fanat-portfolio">
         <main id="main" class="site-main mdl-grid mdlwp-1200" role="main">
 
             <?php $columns = get_theme_mod('portfolio_layout', 'three-column');
