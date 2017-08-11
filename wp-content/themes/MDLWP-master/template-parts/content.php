@@ -30,6 +30,9 @@
 ?>
 
 <div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--2dp">
+
+    'testable git feature'
+
 	<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 		<div class="mdl-card__media" style="<?php echo $color . $bg . $height; ?> ">
