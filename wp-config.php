@@ -21,16 +21,16 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'gymnast');
+define('DB_NAME', 'gymnas05_db');
 
 /** MySQL database username */
-define('DB_USER', 'root');
+define('DB_USER', 'gymnas05_db');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'zgoba-90');
+define('DB_PASSWORD', '2QqRRNvH');
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'gymnas05.mysql.tools');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8mb4');
