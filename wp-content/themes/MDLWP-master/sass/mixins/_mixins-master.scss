@@ -21,3 +21,12 @@
 @mixin clearfix-after() {
 	clear: both;
 }
+
+// Show active and hover Menu item
+@mixin menu-drawer($url) {
+	box-shadow: 0 14px 28px $color__nav-menu-item1, 0 10px 10px $color__nav-menu-item2;
+	background-image: url($url);
+	background-size: 51px, 84px;
+	border-radius: 2%;
+	color: white;
+}
