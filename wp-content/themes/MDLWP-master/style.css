@@ -34,6 +34,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	## Captions
 	## Galleries
 --------------------------------------------------------------*/
+/*Navigation*/
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
@@ -59,8 +60,7 @@ textarea {
       -ms-flex-order: 1;
           order: 1;
   width: 500px;
-  -webkit-transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1), width 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-          transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1), width 0.2s cubic-bezier(0.4, 0, 0.2, 1); }
+  transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1), width 0.2s cubic-bezier(0.4, 0, 0.2, 1); }
 
 .mdlwp-search-box {
   -webkit-box-ordinal-group: 3;
@@ -73,6 +73,39 @@ textarea {
   .mdlwp-search-box.is-focused ~ .mdlwp-navigation-container {
     opacity: 0;
     width: 100px; }
+
+.mdl-layout__drawer.is-visible {
+  background-image: url("images/gymnast.png");
+  background-repeat: no-repeat;
+  background-size: 213px, 442px;
+  background-position-y: 55%; }
+  .mdl-layout__drawer.is-visible .mdl-navigation a {
+    margin: 5px 5px; }
+    .mdl-layout__drawer.is-visible .mdl-navigation a:hover, .mdl-layout__drawer.is-visible .mdl-navigation a.current-menu-item {
+      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+      background-image: url("images/indigo-pentagonal-background.png");
+      background-size: 51px, 84px;
+      border-radius: 2%;
+      color: white; }
+
+.mdl-layout__header {
+  background-image: url("images/indigo-pentagonal-background.png");
+  background-size: 102px, 84px; }
+  .mdl-layout__header .mdl-layout__drawer-button {
+    background: none; }
+  .mdl-layout__header .mdl-navigation > a {
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 0 34px;
+    margin: 0 10px; }
+  .mdl-layout__header .mdl-navigation a:hover, .mdl-layout__header .mdl-navigation a.current-menu-item {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    background-image: url("images/red-pentagonal-background.png");
+    background-size: 51px, 84px;
+    border-radius: 2%;
+    color: white;
+    height: 75%;
+    line-height: 48px; }
 
 /*--------------------------------------------------------------
 ## Posts Navigation
@@ -238,8 +271,7 @@ ol.comment-list {
   margin-right: 25px;
   border: 1px solid #ddd;
   border-radius: 4px;
-  -webkit-transition: all .2s ease-in-out;
-          transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
   padding: 4px; }
 
 .comment-meta {
@@ -277,8 +309,7 @@ ol.comment-list {
   text-transform: uppercase;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.84);
-  -webkit-transition: box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1);
-          transition: box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1);
   outline: 0 !important;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.23), 0 3px 10px rgba(0, 0, 0, 0.16);
   color: rgba(0, 0, 0, 0.84);

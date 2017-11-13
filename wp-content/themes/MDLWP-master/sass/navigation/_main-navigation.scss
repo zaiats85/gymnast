@@ -19,3 +19,45 @@
     width: 100px;
   }
 }
+
+.mdl-layout__drawer.is-visible {
+  background-image: url("images/gymnast.png");
+  background-repeat:  no-repeat;
+  background-size: 213px, 442px;
+  background-position-y: 55%;
+  .mdl-navigation {
+    a {
+      margin: 5px 5px;
+      &:hover, &.current-menu-item {
+        @include menu-drawer("images/indigo-pentagonal-background.png");
+      }
+    }
+  }
+}
+
+.mdl-layout__header {
+  background-image: url("images/indigo-pentagonal-background.png");
+  background-size: 102px, 84px;
+
+  .mdl-layout__drawer-button {
+    background: none;
+  }
+
+  .mdl-navigation  {
+    & > a {
+      text-transform: uppercase;
+      font-weight: $font__bold;
+      padding: 0 34px;
+      margin: 0 10px;
+    }
+
+    a:hover, a.current-menu-item {
+      @include menu-drawer("images/red-pentagonal-background.png");
+      height: 75%;
+      line-height: 48px;
+
+    }
+  }
+
+}
+
