@@ -11,20 +11,21 @@ get_header(); ?>
 
     <div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect">
 
-<?php   if (get_theme_mod('display_filter', '1')) {
-            $terms = get_terms("portfolio_category");
-            $count = count($terms);
-            echo '<div class="mdl-tabs__tab-bar">';
-            echo '<a class="mdl-tabs__tab is-active filter categories-item" data-filter="all" ">' . __("All", "mdlwp") . '</a>';
-            if ($count > 0) {
-                foreach ($terms as $term) {
-                    $termname = strtolower($term->name);
-                    $termname = str_replace(' ', '-', $termname);
-                    echo '<a class="mdl-tabs__tab filter categories-item" data-filter=".' . $termname . '" ">' . $term->name . '</a>';
-                }
-            }
-        echo "</div>";
-    } ?>
+<?php
+if (get_theme_mod('display_filter', '1')) {
+    $terms = get_terms("portfolio_category");
+    $count = count($terms);
+    echo '<div class="mdl-tabs__tab-bar">';
+    echo '<a class="mdl-tabs__tab is-active filter categories-item" data-filter="all" ">' . __("All", "mdlwp") . '</a>';
+    if ($count > 0) {
+        foreach ($terms as $term) {
+            $termname = strtolower($term->name);
+            $termname = str_replace(' ', '-', $termname);
+            echo '<a class="mdl-tabs__tab filter categories-item" data-filter=".' . $termname . '" ">' . $term->name . '</a>';
+        }
+    }
+    echo "</div>";
+} ?>
 
 
     <div id="primary" class="sport-portfolio">

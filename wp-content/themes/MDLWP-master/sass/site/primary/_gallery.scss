@@ -1,0 +1,40 @@
+.sport-portfolio {
+  .mdl-card {
+    &:hover {
+      transition: all 0.5s ease;
+      transform: scale(1.04);
+    }
+  }
+
+  .mdl-card__media {
+    padding: 0;
+    a img {
+      position: absolute;
+      width: 100%;
+      height: 84%;
+      top: 0;
+      left: 0;
+    }
+  }
+}
+
+.mdl-tabs__tab-bar {
+  a:hover {
+    cursor: pointer;
+  }
+}
+
+.mixitup-page-list {
+  text-align: center;
+  button {
+    padding: 0;
+    min-width: 32px;
+    color: $color__light-grey;
+    &.mixitup-control-active {
+      color: $color__deep_pink;
+    }
+  }
+}
+.mixitup-page-stats {
+  text-align: center;
+}
