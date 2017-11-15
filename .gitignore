@@ -1,0 +1,25 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea
+wp-content/themes/MDLWP-master/node_modules
+wp-content/themes/MDLWP-master/bower_components
+wp-content/plugins/mdlwp-portfolio/node_modules
+wp-config.php
+wp-content/plugins/jetpack/_inc/genericons/font/
+wp-content/plugins/jetpack/_inc/genericons/rtl/
+wp-content/plugins/jetpack/_inc/images/
+wp-content/plugins/jetpack/_inc/img/
+wp-content/plugins/jetpack/_inc/jetpack-icons/
+wp-content/plugins/jetpack/_inc/scss/
+wp-content/plugins/jetpack/images/connection-landing/
+wp-content/plugins/jetpack/images/jp-4/
+wp-content/plugins/jetpack/images/screenshots/
+wp-content/plugins/jetpack/logs/
+wp-content/plugins/jetpack/modules/blavatar/
+wp-content/plugins/jetpack/modules/contact-form/css/rtl/
+wp-content/plugins/jetpack/modules/gplus-authorship/
+wp-content/plugins/jetpack/modules/site-icon/css/
+wp-content/plugins/jetpack/modules/site-icon/js/
+wp-content/plugins/jetpack/modules/xml-sitemap/
+wp-content/plugins/jetpack/wpcom-test-backup/
+wp-content/plugins/justified-gallery/languages/
+wp-content/uploads
