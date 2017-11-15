@@ -140,6 +140,48 @@ function mdlwp_widgets_init() {
 }
 add_action( 'widgets_init', 'mdlwp_widgets_init' );
 
+add_filter('the_content', 'reformat_content_of_portfolio');
+
+function reformat_content_of_portfolio($content)
+{
+	global $post;
+	if($post->post_type == "portfolio") {
+
+		$content = str_replace("<p>", "<div id='macy-container'>", $content);
+
+		$dom = new DOMDocument;
+		libxml_use_internal_errors(true);
+
+		$dom->loadHTML( $content );
+		$xpath = new DOMXPath( $dom );
+		libxml_clear_errors();
+		$doc = $dom->getElementsByTagName("div")->item(0);
+		$class = $xpath->query(".//@class");
+
+		$sizes = $xpath->query(".//@sizes");
+		$width = $xpath->query(".//@width");
+		$height = $xpath->query(".//@height");
+
+		foreach ( $height as $h ) {
+			$h->nodeValue = "";
+		}
+		foreach ( $width as $w) {
+			$w->nodeValue = "";
+		}
+		foreach ( $sizes as $s ) {
+			$s->nodeValue = "";
+		}
+		foreach ( $class as $c ) {
+			$c->nodeValue = "";
+		}
+		$output = $dom->saveXML( $doc );
+		return  $output;
+
+	} else {
+		return $content;
+	}
+}
+
 /**
  * Implement the Custom Header feature.
  */

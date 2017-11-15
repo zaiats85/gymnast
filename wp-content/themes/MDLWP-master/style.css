@@ -159,7 +159,7 @@ textarea {
 # Widths
 --------------------------------------------------------------*/
 .mdlwp-900 {
-  max-width: 900px; }
+  max-width: 1200px; }
 
 .mdlwp-1600 {
   max-width: 1600px; }
@@ -324,6 +324,31 @@ ol.comment-list {
 /*--------------------------------------------------------------
 ## Templates - Page Ribbon
 --------------------------------------------------------------*/
+@media (min-width: 601px) {
+  .page-template-page-ribbon .VYMape {
+    background: #e0e0e0; } }
+
+.page-template-page-ribbon .VYMape {
+  background: #fff;
+  bottom: 0;
+  direction: ltr;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1; }
+
+@media (min-width: 601px) {
+  .page-template-page-ribbon .VYMape svg {
+    display: block; } }
+
+.page-template-page-ribbon .VYMape svg {
+  display: none;
+  height: 100%;
+  position: relative;
+  width: 100%; }
+
 .page-template-page-ribbon .site-main {
   padding-top: 0; }
   .page-template-page-ribbon .site-main header h3 {
@@ -374,6 +399,26 @@ ol.comment-list {
     height: 84%;
     top: 0;
     left: 0; }
+
+#macy-container img {
+  max-width: 100%; }
+
+.mdl-card__supporting-text.single {
+  padding-top: 0;
+  padding-bottom: 11px;
+  width: 97.5%; }
+  @media screen and (max-width: 1025px) {
+    .mdl-card__supporting-text.single {
+      width: 97%; } }
+  @media screen and (max-width: 768px) {
+    .mdl-card__supporting-text.single {
+      width: 96%; } }
+  @media screen and (max-width: 480px) {
+    .mdl-card__supporting-text.single {
+      width: 93%; } }
+  @media screen and (max-width: 375px) {
+    .mdl-card__supporting-text.single {
+      width: 90%; } }
 
 .mdl-tabs__tab-bar a:hover {
   cursor: pointer; }
