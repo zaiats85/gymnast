@@ -1,0 +1,63 @@
+.sport-portfolio {
+  .mdl-card {
+    &:hover {
+      transition: all 0.5s ease;
+      transform: scale(1.04);
+    }
+  }
+
+  .mdl-card__media {
+    padding: 0;
+    a img {
+      position: absolute;
+      width: 100%;
+      height: 84%;
+      top: 0;
+      left: 0;
+    }
+  }
+}
+
+#macy-container {
+  img {
+    max-width: 100%
+  }
+}
+.mdl-card__supporting-text.single {
+  padding-top: 0;
+  padding-bottom: 11px;
+  width: 97.5%;
+  @media screen and (max-width: 1025px){
+    width: 97%;
+  }
+  @media screen and (max-width: 768px){
+    width: 96%;
+  }
+  @media screen and (max-width: 480px){
+    width: 93%;
+  }
+  @media screen and (max-width: 375px){
+    width: 90%;
+  }
+}
+
+.mdl-tabs__tab-bar {
+  a:hover {
+    cursor: pointer;
+  }
+}
+
+.mixitup-page-list {
+  text-align: center;
+  button {
+    padding: 0;
+    min-width: 32px;
+    color: $color__light-grey;
+    &.mixitup-control-active {
+      color: $color__deep_pink;
+    }
+  }
+}
+.mixitup-page-stats {
+  text-align: center;
+}
