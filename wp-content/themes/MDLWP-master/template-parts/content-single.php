@@ -29,11 +29,9 @@
   	$bg = (!empty( $featured_img ) ? "background-image: url('". $featured_img[0] ."');" : '');
 ?>
 
-<div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--2dp"> 
-	<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-		
+<div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--2dp">
 
-		
+    <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 		<div class="mdl-card__media" style="<?php echo $color . $bg . $height; ?> ">
 			<header>
 				<?php the_title( sprintf( '<h3 style="%s"> ', $title_color, '</h3>' )); ?>
@@ -45,14 +43,14 @@
 				<?php echo get_avatar( get_the_author_meta( 'ID' ), 32 ); ?>
 			</div>
 
-			<?php if ( 'post' == get_post_type() ) : ?>
+			<?php if ( 'post' || 'portfolio' == get_post_type() ) : ?>
 				<div class="entry-meta">
 					<?php mdlwp_posted_on(); ?>
 				</div><!-- .entry-meta -->
 			<?php endif; ?>
 	    </div>
 
-		<div class="entry-content mdl-color-text--grey-600 mdl-card__supporting-text">
+		<div class="entry-content mdl-color-text--grey-600 mdl-card__supporting-text single">
 			<?php the_content(); ?>
 			<?php
 				wp_link_pages( array(
